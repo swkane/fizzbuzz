@@ -22,11 +22,8 @@ function fizzbuzz(maxValue) {
   // console.log(result);
   return result;
 }
-fizzbuzzPrime(1000);
 
-function writeToDOM(fizzbuzzResult) {
-  /* Write the result from the fizzbuzz function to the DOM. */
-}
+document.write(fizzbuzz(100));
 
 function fizzbuzzPrime(maxValue) {
   let result = "";
